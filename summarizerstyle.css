@@ -1,0 +1,271 @@
+#content2 {
+    margin-top: 10px;
+}
+
+#upload-form {
+    background-color: aliceblue;
+    width: 500px;
+    height: 40px;
+    margin-left: 8.5%;
+    border-radius: 10px;
+    padding: 5px;
+
+}z
+
+#upload-form button{
+    background-color: #FDDFD6;
+    padding: 7px;
+    border-color: aliceblue;
+    border-radius: 10px;
+}
+
+
+#summarize-form {
+    background-color: aliceblue;
+    width: 500px;
+    height: 40px;
+    margin-left: 8.5%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#summarize-form input{
+    height: 80%;
+    font-size: 18px;
+}
+
+#summarize-form button{
+    margin-left: 45px;
+    background-color: #FDDFD6;
+    padding: 8px;
+    border-color: aliceblue;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+  
+label {
+    margin-right: 10px;
+}
+  
+textarea {
+    resize:both;
+    border-radius: 5px;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+
+#para-input textarea{
+    width: 600px;
+    height: 450px;
+    margin-left: 5%;
+}
+
+
+
+#summary-textarea{
+    height: 550px;
+    width: 600px;
+    margin-left: 56%;
+    margin-top: -750px;
+}
+
+textarea::placeholder {
+    text-align: center;
+    font-size: 18px;
+}
+
+/*Hidden Button styling*/
+#btnHolder{
+    margin-left:45%;
+    margin-top: -30px;
+    text-decoration: none;
+    width: 80px;
+    background-color: #FDDFD6;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#btnHolder button{
+    padding: 5px;
+    background-color: #FDDFD6;
+    border: none;
+    padding: 10px 0 10px 0; 
+}
+
+#btnHolder:hover{
+    background-color: #ff8b68;
+}
+
+#btnHolder button:hover{
+    background-color: #ff8b68;
+}
+
+
+#btnHolder a{
+    text-decoration: none;
+}
+
+
+/*Mobile view*/
+@media only screen and (max-width: 767px) {
+
+    #para-input textarea{
+        width: 500px;
+        height: 500px;
+        margin-left: 8%;
+    }
+
+   
+    #summary-textarea{
+        height: 500px;
+        width: 500px;
+        margin-left:8%;
+        margin-top: 15px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 556px) {
+
+    #upload-form {
+        background-color: aliceblue;
+        width: 420px;
+        height: 40px;
+        margin-left: 8.5%;
+        border-radius: 10px;
+        padding: 5px;
+    
+    }
+
+    #summarize-form {
+        background-color: aliceblue;
+        width: 420px;
+        height: 40px;
+        margin-left: 8.5%;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    #summarize-form button{
+        margin-left: 20px;
+        background-color: #FDDFD6;
+        padding: 8px;
+        border-color: aliceblue;
+        border-radius: 10px;
+    }
+
+    #para-input textarea{
+        width: 400px;
+        height: 400px;
+        margin-left: 10%;
+    }
+    #summary-textarea{
+        height: 400px;
+        width: 400px;
+        margin-left:10%;
+        margin-top: 15px;
+    }
+
+    
+}
+
+
+
+@media only screen and (max-width: 556px) {
+
+    #upload-form {
+        background-color: aliceblue;
+        width: 400px;
+        height: 40px;
+        margin-left: 7%;
+        border-radius: 10px;
+        padding: 5px;
+    
+    }
+
+    #summarize-form {
+        background-color: aliceblue;
+        width: 400px;
+        height: 40px;
+        margin-left: 7%;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    #summarize-form button{
+        margin-left: 2px;
+        background-color: #FDDFD6;
+        padding: 4px;
+        border-color: aliceblue;
+        border-radius: 10px;
+    }
+
+    #para-input textarea{
+        width: 400px;
+        height: 400px;
+        margin-left: 7%;
+    }
+    #summary-textarea{
+        height: 400px;
+        width: 400px;
+        margin-left:7%;
+        margin-top: 15px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 450px) {
+
+    #upload-form {
+        background-color: aliceblue;
+        width: 360px;
+        height: 40px;
+        margin-left: 7%;
+        border-radius: 10px;
+        padding: 5px;
+    
+    }
+
+    #summarize-form {
+        background-color: aliceblue;
+        width: 360px;
+        height: 40px;
+        margin-left: 7%;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    #summarize-form button{
+        margin-left: 2px;
+        background-color: #FDDFD6;
+        padding: 4px;
+        border-color: aliceblue;
+        border-radius: 10px;
+    }
+
+    #para-input textarea{
+        width: 360px;
+        height: 400px;
+        margin-left: 7%;
+    }
+    #summary-textarea{
+        height: 400px;
+        width: 360px;
+        margin-left:7%;
+        margin-top: 15px;
+    }
+
+    
+}
+ 
